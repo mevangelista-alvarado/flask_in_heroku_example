@@ -1,4 +1,3 @@
-from app import app 
 from datetime import datetime
 
 @app.route('/')
@@ -14,8 +13,3 @@ def homepage():
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
-
-#@app.route('/')
-#@app.route('/index')
-#def index():
-#    return "Hello, World!"

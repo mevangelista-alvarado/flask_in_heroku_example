@@ -1,1 +1,1 @@
-web: python microblog.py
+web: gunicorn app:app --log-file=-
